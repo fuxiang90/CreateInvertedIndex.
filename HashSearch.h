@@ -1,7 +1,7 @@
 #pragma once
 #include "CreateIndexFile.h"
 
-unsigned long cryptTable[0x100];
+unsigned long cryptTable[0x500];
 int	HashATable[TABLE_SIZE];
 int	HashBTable[TABLE_SIZE];
 int HashValue[5] = {0};
